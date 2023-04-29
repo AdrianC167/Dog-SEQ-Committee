@@ -138,7 +138,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="logo.jpg" class="logo">SEQ Dog Run</a>
+            <a class="navbar-brand" href="index.html"><img src="logo.jpg" class="logo" alt="logo"> SEQ Dog Run</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -146,19 +146,15 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link" href="#contact">Join Now</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -166,80 +162,41 @@
 
     <main>
 
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"> </button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg>
-                    <div class="container">
-                        <div class="carousel-caption text-start">
-                            <h1>Example headline.</h1>
-                            <img src="logo.jpg" class="w-100">
-                            <p>Some representative placeholder content for the first slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg>
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Another example headline.</h1>
-                            <p>Some representative placeholder content for the second slide of the carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg>
-                    <div class="container">
-                        <div class="carousel-caption text-end">
-                            <h1>One more for good measure.</h1>
-                            <p>Some representative placeholder content for the third slide of this carousel.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide" style="background-color: rgba(0, 0, 0, 0.61);">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="logo.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-inner  mx-auto">
+              <div class="carousel-item active mx-auto " style="text-align: center;" >
+                <img src="logo.jpg" class=" w-100" alt="..." style="max-width: 900px;">
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img3.jpg" class=" w-100" alt="..." style="max-width: 900px;">
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img4.JPG" class=" w-100" alt="..." style="max-width: 900px;">
+              </div>
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img1.JPG" class=" w-100" alt="..." style="max-width: 900px;">
+              </div>
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img5.JPG" class=" w-100" alt="..." style="max-width: 900px;">
+              </div>
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img6.JPG" class=" w-100" alt="..." style="max-width: 900px;">
+              </div>
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img7.JPG" class=" w-100" alt="..." style="max-width: 900px;">
+              </div>
+              <div class="carousel-item mx-auto" style="text-align: center;">
+                <img src="img8.JPEG" class=" w-100" alt="..." style="max-width: 900px;">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -286,6 +243,12 @@
 
         <hr class="featurette-divider">
 
+<div class="center" id="#about">
+<h1>About us</h1>
+<img src="core.JPG" class="w-50 d-none d-lg-block mx-auto " alt="About us flyer">
+<img src="core.JPG" class="w-100  d-md-block d-lg-none mx-auto " alt="About us flyer">
+</div>
+<hr>
         <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
@@ -346,6 +309,12 @@
         </div>
 
         <hr class="featurette-divider">
+
+<div class="center">
+    <h1 id="contact" style="text-align: center;">Contact Us!</h1>
+    <hr>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfh9frDYdSu8lqo5yOm-SEpq2JH0NW0DfvRMgZ8P80TXqn2nA/viewform?embedded=true" width="640" height="956" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
 
         <!-- /END THE FEATURETTES -->
 
